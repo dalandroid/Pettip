@@ -1,0 +1,6 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="notice" value="Copyright (c) &amp;#36;originalComment.match(&quot;Copyright \(c\) (\d+)&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year. PetTip All right reserved.&#10;This software is the proprietary information of Care Pet.&#10;&#10;Revision History&#10;  Author                         Date          Description&#10;  --------------------------     ----------    ----------------------------------------&#10;  &amp;#36;username                         &amp;#36;today.year.&amp;#36;today.month.&amp;#36;today.day&#10;" />
+    <option name="myName" value="PetTip" />
+  </copyright>
+</component>
