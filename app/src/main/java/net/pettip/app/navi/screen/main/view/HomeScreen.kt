@@ -85,7 +85,7 @@ fun HomeScreen(
         contentAlignment = Alignment.Center
     ){
         Box(modifier = Modifier.fillMaxWidth(0.8f)){
-            CustomTabRow2(
+            CustomTabRow(
                 tabList = list,
                 selectedTabIndex = selectedTabIndex,
                 onTabSelected = { int -> selectedTabIndex = int },

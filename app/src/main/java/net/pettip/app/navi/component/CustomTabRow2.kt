@@ -89,7 +89,7 @@ fun CustomTabRow2(
                     .width(animatedTabSize)
                     .height(tabHeight)
                     .clip(RoundedCornerShape(tabHeight / 2))
-                    .background(color.copy(alpha = alphaValue))
+                    .background(color.copy(alpha = alphaValue.coerceIn(0f,1f)))
             )
         }
 

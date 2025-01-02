@@ -1,4 +1,5 @@
 [versions]
+accompanistSystemuicontroller = "0.32.0"
 agp = "8.4.2"
 kotlin = "1.9.22"
 coreKtx = "1.13.1"
@@ -21,6 +22,7 @@ splashScreen = "1.0.1"
 coilVersion = "2.7.0"
 
 [libraries]
+accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemuicontroller" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }

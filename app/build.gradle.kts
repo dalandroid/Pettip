@@ -78,7 +78,7 @@ dependencies {
 
     implementation(libs.androidx.core.splash)
     implementation(libs.coil.compose)
-    implementation("com.google.accompanist:accompanist-systemuicontroller:0.32.0")
+    implementation(libs.accompanist.systemuicontroller)
 
     // hilt
     implementation(libs.hilt.navigation)
